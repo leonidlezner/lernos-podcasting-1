@@ -1,0 +1,1 @@
+docker run --volume "$(pwd):/data" leonidlezner/skribos:latest dist skribos.yml $1

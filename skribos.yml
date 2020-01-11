@@ -27,5 +27,8 @@ build:
     - name: "Create PDF"
       command: pandoc $files -o $output/$base.pdf --from markdown --number-sections -V lang=$language
 
+    - name: "Create HTML"
+      command: pandoc $files -o $output/index.html --from markdown --number-sections -V lang=$language
+
 #    - name: "Convert DOCX"
 #      command: pandoc $files -o $output/$base.docx --from markdown --number-sections -V lang=$language
