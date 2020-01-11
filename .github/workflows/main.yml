@@ -10,7 +10,7 @@ jobs:
     - name: Run Skribos
       uses: leonidlezner/skribos@master
       with:
-        args: 'dist/${GITHUB_REF:11} skribos.yml'
+        args: dist/${GITHUB_REF:11} skribos.yml
     - name: Deploy to Github Pages
       uses: crazy-max/ghaction-github-pages@v1
       with:
