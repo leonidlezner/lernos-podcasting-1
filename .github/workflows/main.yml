@@ -11,7 +11,7 @@ jobs:
       run: echo ::set-output name=reference::${GITHUB_REF:11}
       id: branch
     - name: Run Skribos for German version
-      run: docker run --volume "$(pwd):/data" leonidlezner/skribos:0.4 dist/${{ steps.branch.outputs.reference }} skribos-de.yml
+      run: docker run --volume "$(pwd):/data" leonidlezner/skribos dist/${{ steps.branch.outputs.reference }} skribos-de.yml
     - name: Deploy to Github Pages
       uses: crazy-max/ghaction-github-pages@v1
       with:
