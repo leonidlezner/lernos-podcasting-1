@@ -1,4 +1,4 @@
-# Katas
+# Überishcht der Katas
 
 ## Kata 1: Wir starten mit Podcasts
 Die initiale Kata bringt die Teilnehmenden zusammen, sie tauschen sich über ihre Erfahrungen mit Podcasts aus und über ihre Motivation eines eigenen Podcasts.
