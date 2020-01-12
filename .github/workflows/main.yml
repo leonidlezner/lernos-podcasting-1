@@ -11,7 +11,7 @@ jobs:
       run: echo ::set-output name=reference::${GITHUB_REF:11}
       id: branch
     - name: Run Skribos for German version
-      uses: leonidlezner/skribos@master
+      uses: leonidlezner/skribos@feature/missingpackets
       with:
         args: dist/${{ steps.branch.outputs.reference }} skribos-de.yml
     - name: Deploy to Github Pages
